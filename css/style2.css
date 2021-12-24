@@ -1,0 +1,102 @@
+body{
+  font-family: Comfortaa,sans-serif;
+  background:url(https://media.macphun.com/img/uploads/macphun/blog/1247/christmasphoto.jpg?q=75&w=1710&h=906&resize=cover) no-repeat center fixed;
+  background-size: cover;
+}
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+}
+
+header{
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+nav{
+  margin-top: 20px;
+  background-color: rgba(0,0,0,0.4);
+
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 5px 15px;
+}
+
+a:link{
+  /*color: #051a2b;*/
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+a:visited{
+  color: #000;
+}
+a:hover{
+  color: #f44336;
+  font-size: 18px;
+}
+
+h3{
+  text-align: center;
+}
+
+
+form{
+
+  width: 500px;
+  margin: 5px auto 50px auto;
+  background-color: rgba(0,0,0,0.4);
+  border: 1px solid #ddd;
+  padding: 5px 25px;
+  color: #fff;
+}
+
+input, label{
+  margin-bottom: 8px;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+input{width: 250px; height: 30px;}
+
+[type="submit"]{
+  width: 500px;
+  height: 30px;
+background-color: #000;
+  margin-left: 0;
+  color: #fff;
+font-family: Comfortaa, sans-serif;
+border: none;
+}
+
+
+
+
+
+footer{
+  position: relative;
+  bottom: 0;
+  background-color:rgba(0,0,0,0.4);
+  color: #fff;
+  text-align: center;
+  width: 700px;
+  padding: 15px 0;
+  line-height: 30px;
+  font-size: 18px;
+}
